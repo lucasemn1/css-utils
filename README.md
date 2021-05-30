@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CSS Utils.
+ 
+Utilitários para melhorar a experiência de desenvolvimento CSS 🛠️
 
-## Getting Started
+[Acesse já!](https://cssutils.com/base-converter)
 
-First, run the development server:
+## Sobre o projeto
 
-```bash
-npm run dev
-# or
+<p>
+  O projeto iniciou-se com o intuito de fazer regra de três para transformar a unidade de pixels para rem, para com isso melhorar a acessibilidade de outros projetos. Atualmente essa é a principal funcionalidade do sistema, porém estão sendo pensadas diversas outras features 😉
+</p>
+
+## Acompanhe o protótipo e colabore com o projeto, se puder 😁
+
+[![Figma](https://img.shields.io/static/v1?label=Figma&message=Prot%C3%B3tipo&color=F24E1E&style=for-the-badge&logo=figma)](https://www.figma.com/file/ToYdegAvrZ69AiY1AxEIvS/CSS-Utils?node-id=0%3A1)
+
+## Dependências
+
+- [![node-current](https://img.shields.io/node/v/next?label=Node&color=%23339933&style=for-the-badge&logo=node-dot-js)](https://nodejs.org/en/)
+- [![Yarn](https://img.shields.io/static/v1?label=Yarn&message=1.22.10&color=2C8EBB&style=for-the-badge&logo=yarn)](https://yarnpkg.com/)
+
+## Tecnologias utilizadas no projeto
+
+- [![NodeJS](https://img.shields.io/node/v/next?label=Node&color=%23339933&style=for-the-badge&logo=node-dot-js)](https://nodejs.org/en/)
+- [![Yarn](https://img.shields.io/static/v1?label=Yarn&message=1.22.10&color=2C8EBB&style=for-the-badge&logo=yarn)](https://yarnpkg.com/)
+- [![Typescript](https://img.shields.io/static/v1?label=Typescript&message=4.2.4&color=3178C6&style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+- [![React](https://img.shields.io/static/v1?label=React&message=17.0.2&color=61DAFB&style=for-the-badge&logo=React)](https://pt-br.reactjs.org/)
+- [![Next.js](https://img.shields.io/static/v1?label=Next.js&message=10.2.0&color=000000&style=for-the-badge&logo=next-dot-js)](https://nextjs.org/)
+- [![SASS](https://img.shields.io/static/v1?label=Sass&message=1.32.13&color=CC6699&style=for-the-badge&logo=sass)](https://sass-lang.com/)
+
+### Features
+
+- [x] Conversor de píxels para rem
+
+## Instalação
+
+1. Após clonar o projeto na máquina, navegue até a pasta "css-utils" e execute o comando abaixo para instalar as dependências:
+
+```console
+yarn
+```
+
+2. Após as dependências terem sido instaladas, execute o servidor local:
+
+```console
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Só isso! O projeto já está rodando na sua máquina! 🎉
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+4. (Bonus!) Para finalizar o servidor basta pressionar:
+```
+ctrl + C
+```
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Feito com ❤️ por Lucas Nóbrega 👋🏽 Entre em contato!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![LinkedIn](https://img.shields.io/static/v1?label=LinkedIn&message=/lucas-emn&color=0A66C2&style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/lucas-emn/)
