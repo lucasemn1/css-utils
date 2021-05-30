@@ -1,0 +1,30 @@
+.input {
+  width: 200px;
+  height: 67px;
+
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #30382e;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+  color: #ffffff;
+  outline: none;
+  padding: 10px;
+
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+
+  appearance: textfield;
+
+  &[type="number"]::-webkit-inner-spin-button,
+  &[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &::placeholder {
+    color: #14ea6a;
+    opacity: 0.2;
+  }
+}

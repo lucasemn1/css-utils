@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+.page {
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #171717;
+  color: #ffffff;
+}
+
+@import "typography.scss";
